@@ -73,7 +73,7 @@ window.view = {
 		this.unCheckRadioButtons()
 	},
 	approveRectangleInputs: function() {
-		this.displayFunctionForRectangle()
+		this.displayFunctionForTriangle()
         this.showInstructions()
 		document.getElementById('questionRectangle').className = 'questionBlock hide'
 		document.getElementById('imageRectangle').className += ' disabledImage'
